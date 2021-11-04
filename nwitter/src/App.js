@@ -1,5 +1,5 @@
 function App() {
-  return null;
+  return <span>Hello!</span>
 }
 
 export default App;
