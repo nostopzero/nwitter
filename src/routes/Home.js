@@ -8,10 +8,14 @@ const Home = ({userObj}) => {
     const [nweet, setNweet] = useState("");
     const [nweets, setNweets] = useState([]);
 <<<<<<< HEAD
+<<<<<<< HEAD
     const [weets, setWeets] = useState("1");
 =======
     const [nweeets, setNweeets] = useState("");
 >>>>>>> 35a31ed (rebase test)
+=======
+    const [nweeets, setNweeets] = useState("");
+>>>>>>> 35a31ed445d102692ff1f471e8448a41324b237d
 
     useEffect(() => {
         onSnapshot(collection(dbService, "nweets"), (snapshot) => {
