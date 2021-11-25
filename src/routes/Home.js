@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 const Home = ({userObj}) => {
     const [nweet, setNweet] = useState("");
     const [nweets, setNweets] = useState([]);
+    const [nweeets, setNweeets] = useState("");
 
     useEffect(() => {
         onSnapshot(collection(dbService, "nweets"), (snapshot) => {
